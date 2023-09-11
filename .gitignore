@@ -1,5 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
 
 # Compiled Object files
 *.slo
@@ -45,12 +46,16 @@
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
+# StartContent
+Content/StartContent/*
+
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
 Build/*
+AndriodBuild/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -72,3 +77,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Platform Setting
+Platforms/*
